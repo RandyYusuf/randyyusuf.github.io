@@ -401,6 +401,18 @@ textarea:focus {
     margin: 0;
     padding: 0;
   }
+
+  #about-me {
+    padding-top: 170px;
+  }
+
+  #contact {
+    padding-top: 350px;
+  }
+
+  .submit {
+    margin-bottom: 300px;
+  }
 }
 
 @media screen and (max-width: 1250px) {
@@ -423,21 +435,42 @@ textarea:focus {
   }
 }
 
-@media screen and (max-width: 450px) {
-  nav {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+@media screen and (max-width: 500px) {
+  * {
+    scroll-behavior: smooth;
+    overflow: hidden;
   }
 
-  #nav-contact {
-    margin-right: 0;
+  .name p {
+    font-size: 25px;
+  }
+  .name h1 {
+    font-size: 32px;
+  }
+  .contact-hero img {
+    max-width: 60px;
+  }
+  .left-hero h1 {
+    font-size: 32px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   nav ul {
     display: flex;
-    gap: 20px;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+  }
+
+  #nav-contact {
+    margin: 0;
+    padding: 0;
   }
 }
