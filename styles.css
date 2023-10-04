@@ -432,10 +432,6 @@ textarea:focus {
 }
 
 @media screen and (max-width: 750px) {
-  .project-rect {
-    width: auto;
-  }
-
   .input,
   .textarea,
   .submit {
@@ -444,12 +440,12 @@ textarea:focus {
 }
 
 @media screen and (max-width: 500px) {
-  *::-webkit-scrollbar {
-    display: none;
-  }
-
   * {
     scroll-behavior: smooth;
+  }
+
+  body {
+    width: 100vw;
   }
 
   .name p {
@@ -481,4 +477,39 @@ textarea:focus {
   #nav-contact {
     padding: 3px;
   }
+
+  .highlight {
+    font-size: 14px;
+  }
+
+  .highlight-porto {
+    font-size: 14px;
+  }
+
+  #about-me .highlight {
+    margin-top: 250px;
+  }
+
+  #about-me .desc {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  #about-me .desc p {
+    text-align: justify;
+    font-size: 12px;
+  }
+
+  .ability {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .ability p {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  
 }
