@@ -201,10 +201,11 @@
           required
         />
         <input
-          type="number"
+          type="text"
           id="number"
           name="number"
           placeholder="PHONE NUMBER"
+          oninput="formatPhoneNumber(this)"
           class="input"
         />
         <textarea
@@ -245,5 +246,20 @@
       <p><strong>@2023 Muhammad Yusuf Arandy </strong>All Right Reserved.</p>
     </section>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      function formatPhoneNumber(input) {
+        let phoneNumber = input.value.replace(/\D/g, "");
+        if (phoneNumber.length === 11) {
+          phoneNumber =
+            "+62 " +
+            phoneNumber.substring(1, 5) +
+            " " +
+            phoneNumber.substring(5, 9) +
+            " " +
+            phoneNumber.substring(9, 13);
+        }
+        input.value = phoneNumber;
+      }
+    </script>
   </body>
 </html>
