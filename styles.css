@@ -493,7 +493,7 @@ textarea:focus {
   #hero {
     background-image: url(./assets/profile.jpg);
     background-size: cover;
-    height: 98vh;
+    height: 95vh;
   }
 
   .left-hero {
