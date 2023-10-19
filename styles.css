@@ -453,10 +453,6 @@ textarea:focus {
     width: 100vw;
   }
 
-  #hero {
-    height: 98vh;
-  }
-
   .name p {
     font-size: 25px;
   }
