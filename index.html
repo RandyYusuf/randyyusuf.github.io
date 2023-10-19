@@ -183,19 +183,48 @@
         If you're interested in collaborating or have any questions about my
         work, please don't hesitate to get in touch with me.
       </p>
-      <form action="">
-        <input type="text" placeholder="ENTER YOUR NAME*" class="input" />
-        <input type="email" placeholder="ENTER EMAIL*" class="input" />
-        <input type="text" placeholder="PHONE NUMBER" class="input" />
+      <form
+        action="https://formsubmit.co/e00d6629c1502dbae19d6b32f9ec330f"
+        method="POST"
+      >
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="ENTER YOUR NAME*"
+          class="input"
+          required
+        />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="ENTER EMAIL*"
+          class="input"
+          required
+        />
+        <input
+          type="hidden"
+          name="_subject"
+          value="New email from your website"
+        />
+        <input
+          type="text"
+          id="phoneNumber"
+          name="phoneNumber"
+          placeholder="PHONE NUMBER"
+          class="input"
+        />
         <textarea
           class="textarea"
-          name="your-message"
-          id=""
+          name="message"
+          id="message"
           cols="30"
           rows="10"
           placeholder="YOUR MESSAGE*"
+          required
         ></textarea>
-        <button class="submit">SUBMIT</button>
+        <button class="submit" type="submit">SUBMIT</button>
       </form>
     </section>
     <section id="footer">
