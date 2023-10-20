@@ -491,7 +491,9 @@ textarea:focus {
 
   #hero {
     background-image: url(./assets/profile.jpg);
-    background-size: 100%;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
     height: 100vh;
   }
 
