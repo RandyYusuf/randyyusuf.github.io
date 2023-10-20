@@ -493,7 +493,8 @@ textarea:focus {
   #hero {
     background-image: url(./assets/profile.jpg);
     background-size: cover;
-    height: 95vh;
+    height: 100vh;
+    z-index: 1000;
   }
 
   .left-hero {
@@ -550,8 +551,12 @@ textarea:focus {
     font-size: 14px;
   }
 
-  #about-me .highlight {
-    margin-top: 250px;
+  #bg {
+    padding-top: 300px;
+  }
+
+  #about-me {
+    padding-top: 0;
   }
 
   #about-me .desc {
