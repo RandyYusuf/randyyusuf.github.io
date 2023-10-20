@@ -530,6 +530,7 @@ textarea:focus {
     display: block;
     width: 100vw;
     position: absolute;
+    margin-bottom: -14px;
     bottom: 0;
   }
 
