@@ -504,7 +504,8 @@ textarea:focus {
     text-align: left;
     display: flex;
     gap: 160px;
-    /* padding-bottom: 20px; */
+    padding-bottom: 20px;
+    padding-top: 0;
   }
 
   .name p {
