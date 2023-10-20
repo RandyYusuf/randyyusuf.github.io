@@ -490,7 +490,7 @@ textarea:focus {
   }
 
   #hero {
-    background-image: url(./assets/profile.jpg);
+    background-image: url(./assets/mobile.svg);
     background-size: cover;
     height: 100vh;
   }
@@ -525,7 +525,7 @@ textarea:focus {
   }
 
   .cover {
-    display: block;
+    display: none;
     width: 100vw;
     position: absolute;
     bottom: 0;
