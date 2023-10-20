@@ -504,7 +504,7 @@ textarea:focus {
     text-align: left;
     display: flex;
     gap: 160px;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
   }
 
   .name p {
@@ -530,7 +530,6 @@ textarea:focus {
     display: block;
     width: 100vw;
     position: absolute;
-    margin-bottom: -14px;
     bottom: 0;
   }
 
