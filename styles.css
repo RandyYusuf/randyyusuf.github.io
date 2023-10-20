@@ -502,7 +502,7 @@ textarea:focus {
     text-align: left;
     display: flex;
     gap: 160px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
   }
 
   .name p {
